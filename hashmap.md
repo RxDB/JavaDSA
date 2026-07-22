@@ -31,6 +31,8 @@ for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
     int key = entry.getKey();
     int value = entry.getValue();
 }
+
+map.put(key,map.getOrDefault(key,0) + 1) //Interate count
 ```
 
 Key points:
