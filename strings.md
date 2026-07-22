@@ -24,7 +24,7 @@ int num = Integer.parseInt(s);  // string to int
 ## StringBuilder
 ```java
 StringBuilder sb = new StringBuilder();
-StringBuilder sb = new StringBuilder(s);
+StringBuilder sb = new StringBuilder(s); // Turn String to sb
 
 sb.append(value);               // add at end
 sb.insert(index, value);        // insert at index
